@@ -1,3 +1,2 @@
 *.map
-*.sassc
-.sass-cache
+*.sass-cache
