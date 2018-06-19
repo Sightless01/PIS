@@ -1,5 +1,12 @@
-<html>
-	<body>
+<!DOCTYPE HTML>
+<html lang="en">
+  <?php
+    include 'partials/head.php';
+  ?>
+  <body>
+    <?php
+      include 'partials/nav-admin.php';
+    ?>
 		<div>General Information
 			<div>
 				Gender
@@ -17,7 +24,10 @@
 				Birthplace
 			<div>
 				Nationality
-			</div>	
+			</div>
 		</div>
-	</body>
+    <?php
+      include 'partials/script.php';
+    ?>
+  </body>
 </html>
